@@ -1,0 +1,78 @@
+#titleandDescription{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.8vw;
+    color: white;
+    margin-top: 20%;
+}
+.finalProject{
+    width: 90%;
+    border: 5px solid #01c38d;
+    margin: auto;
+    margin-top: 5%;
+}
+.finalProject div{
+    width: 90%;
+    height: 300px;
+    background-image: url('Color game(Sample background).png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 5px solid #01c38d;
+    text-align: center;
+}
+#addButton{
+    width: 15%;
+    margin-top: 20%;
+    margin-left: 43%;
+    font-size: 1.5vw;
+    border-radius: 10%;
+    padding: 1%;
+    border: 2px solid #01c38d;
+    background-color: #191e29;
+    box-shadow: 0px 15px 10px 0px #01c38d;
+    color: white;
+}
+#addButton:hover{
+    background-color: #01c38d;
+    color: white;
+    transition: 2s;
+    border: 2px solid #191e29;
+}
+#addButton:active{
+    background-color: #191e29;
+    color: #01c38d;
+    transition: 0.5s;
+    transform: scale(0.80);
+}
+.deleteandadd{
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.deleteandadd div{
+    text-align: center;
+}
+.deleteandadd button{
+    width: 30%;
+    padding: 1%;
+    font-size: 1.5vw ;
+    border: 2px solid #01c38d;
+    color: white;
+    background-color: #191e29;
+}
+.deleteandadd button:hover{
+    background-color: white;
+    color: #191e29;
+    transition: 1.5s;
+}
+.deleteandadd button:active{
+    transform: scale(0.90);
+    transition: 1s;
+}

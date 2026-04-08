@@ -1,0 +1,16 @@
+Simple Calculator
+This project is a basic graphical user interface (GUI)-based calculator application built using Java Swing. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The interface includes buttons for digits and operations, along with a text field to display the input and results. This project serves as an introduction to event handling and GUI programming concepts.
+calculator.jpg
+0
+Snake Game
+This is a recreation of the classic Snake game, where players control a snake to collect food and grow in length while avoiding collisions with the walls and its own body. The game is built using Java's Graphics library and features smooth gameplay mechanics. It is a great exercise in implementing game loops, keyboard controls, and collision detection.
+snakegame.jpg
+1
+Color Game
+Inspired by the popular "color game" found in Filipino fairs ("perya"), this project simulates a betting game where players choose a color and bet on it. The game uses a random number generator to determine the winning color after each round. It features an engaging and colorful interface, allowing players to experience the fun and excitement of a perya-style game digitally. This project highlights basic game logic, randomization, and user interaction.
+colorgame.png
+2
+Hotel Website project
+This project is a hotel website created using HTML, CSS, and JavaScript. The website features a clean and elegant design, showcasing the hotel's amenities, services, and room options. HTML is used for the structure, CSS provides the styling and responsiveness, and JavaScript adds interactivity, such as image sliders, booking forms, and dynamic navigation menus. The site aims to provide a seamless user experience while reflecting the hotel's branding and professionalism.
+hotelwebsite.jpg
+3

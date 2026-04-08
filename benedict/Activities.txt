@@ -1,0 +1,12 @@
+Prelim Lab Activity 2
+This activity focuses on applying advance OOP concept in PHP including access modifiers, constructors, destructors, and method overloading. The task involves creating a simple library management system with a book class to handle book details and a library class for managing collection
+labAc2.jpg
+1
+Midterm Lab Activity 1
+This midterm lab activity involves creating a banking system in PHP to practice Object-Oriented Programming (OOP) principles. The activity includes implementing classes for different types of accounts (e.g., savings), defining methods for deposit, withdrawal, and balance checks, and testing functionality with various scenarios. The output demonstrates the program's ability to handle transactions and display account information dynamically.
+labAct3.jpg
+2
+
+
+
+

@@ -1,0 +1,65 @@
+#aboutme{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-bottom: 1px solid #01c38d;
+    box-shadow: 0px 20px 10px 0px #01c38d;
+}
+#idPic{
+    width: 100%;
+}
+#idPic img{
+    width: 100%;
+    border: 3px solid #191e29;
+    border-radius: 10%;
+}
+#personals{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#aboutme p{
+    margin-left: 10%;
+    font-size: 1.8vw;
+    color: #01c38d;
+}
+#aboutme span{
+    color: white;
+    margin-left: 2%;
+}
+i{
+    color: #01c38d;
+    font-size: 2.5vw;
+    margin-left: 5%;
+}
+#update{
+    width: 25%;
+    border: none;
+    border-bottom: 2px solid #01c38d;
+    background-color: #191e29;
+    padding: 1%;
+    font-size: 2vw;
+    margin-left: 38%;
+    margin-top: 15%;
+    box-shadow: 0px 10px 5px 0px #01c38d;
+    color: white;
+
+}
+#update:hover{
+    background-color: white;
+    opacity: 0.8;
+    color: #191e29;
+    box-shadow: 0px 15px 10px 0px #01c38d;
+    transition: 1.5s;
+}
+#update:active{
+    transform: scale(0.80);
+    transition: 1s;
+}
+#about{
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+}

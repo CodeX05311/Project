@@ -1,0 +1,166 @@
+<?php
+                    function getItems(&$title, &$description, $items){
+
+                        if(strpos($items, 'title') !== FALSE){
+                            array_push($title, $items);
+                        }
+                        else{
+                            array_push($description, $items);
+                        }
+                    }
+                    function getResources(&$resources, $resourcesCount, $items, $file){
+
+                    
+                        for($i = 0; $i < $resourcesCount; $i++){
+                            $items = fgets($file);
+                            array_push($resources, $items);
+                            
+                        }
+                    }
+                    $file = fopen('Activities.txt', 'r');
+                    $title = [];
+                    $description = [];
+                    $resources = [];
+
+                    $condition = true;
+
+                    while ($condition) { 
+                        $checkLine = fgets($file);
+                        if (trim($checkLine) === "Prelim") { 
+                            while (true) {
+                                $checkLine = fgets($file); 
+                                if (trim($checkLine) === "Midterm" || feof($file)) { 
+                                    break;
+                                    
+                                }
+
+                                if(strpos(trim($checkLine) ,'title') !== false ||
+                                   strpos(trim($checkLine), 'description') !== FALSE){
+
+                                   getItems($title,$description, $checkLine);
+                                   }
+                                else if(strpos(trim($checkLine), '#') !== FALSE ){
+
+                                    $resourcesCount = (int) substr($checkLine, 1,2);
+
+                                    getResources($resources, $resourcesCount, $checkLine, $file);
+                                }             
+                            }
+                            echo count($title);
+                            echo count($description);
+                            echo count($resources);
+                            foreach ($title as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($description as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($resources as $x) {
+                                echo "$x <br>";
+                              }
+                              $title = [];
+                              $description = [];
+                              $resources = [];
+                        }
+                        if (trim($checkLine) === "Midterm") { 
+                            while (true) {
+                                $checkLine = fgets($file); 
+                                if (trim($checkLine) === "Semis" || feof($file)) { 
+                                    break;
+                                    
+                                }
+                                if(strpos(trim($checkLine) ,'title') !== FALSE ||
+                                   strpos(trim($checkLine), 'description') !== FALSE){
+
+                                   getItems($title,$description, $checkLine);
+                                   }
+                                else if(strpos(trim($checkLine), '#') !== FALSE ){
+
+                                    $resourcesCount = (int) substr($checkLine, 1,2);
+
+                                    getResources($resources, $resourcesCount, $checkLine, $file);
+                                } 
+                            }
+                            foreach ($title as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($description as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($resources as $x) {
+                                echo "$x <br>";
+                              }
+                              $title = [];
+                              $description = [];
+                              $resources = [];
+                        }
+                        if (trim($checkLine) === "Semis") { 
+                            while (true) {
+                                $checkLine = fgets($file); 
+                                if (trim($checkLine) === "Finals" || feof($file)) { 
+                                    break;
+                                    
+                                }
+                                if(strpos(trim($checkLine) ,'title') !== FALSE ||
+                                   strpos(trim($checkLine), 'description') !== FALSE){
+
+                                   getItems($title,$description, $checkLine);
+                                   }
+                                else if(strpos(trim($checkLine), '#') !== FALSE ){
+
+                                    $resourcesCount = (int) substr($checkLine, 1,2);
+
+                                    getResources($resources, $resourcesCount, $checkLine, $file);
+                                } 
+                            }
+                            foreach ($title as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($description as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($resources as $x) {
+                                echo "$x <br>";
+                              }
+                              $title = [];
+                              $description = [];
+                              $resources = [];
+                        }
+                        if (trim($checkLine) === "Finals") { 
+                            while (true) {
+                                $checkLine = fgets($file); 
+                                if (strpos(trim($checkLine), 'title') === "FALSE" || 
+                                feof($file)) { 
+                                    $condition = false;
+                                    break;
+                                    
+                                }
+                                if(strpos(trim($checkLine) ,'title') !== FALSE ||
+                                   strpos(trim($checkLine), 'description') !== FALSE){
+
+                                   getItems($title,$description, $checkLine);
+                                   }
+                                else if(strpos(trim($checkLine), '#') !== FALSE ){
+
+                                    $resourcesCount = (int) substr($checkLine, 1,2);
+
+                                    getResources($resources, $resourcesCount, $checkLine, $file);
+                                } 
+                            }
+                            foreach ($title as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($description as $x) {
+                                echo "$x <br>";
+                              }
+                              foreach ($resources as $x) {
+                                echo "$x <br>";
+                              }
+                              $title = [];
+                              $description = [];
+                              $resources = [];
+                        }
+                    }
+
+                    fclose($file);
+                ?>

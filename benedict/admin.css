@@ -1,0 +1,77 @@
+#adminLogin{
+    width: 50%;
+    margin: auto;
+    border: 2px solid #01c38d;
+    text-align: center;
+    margin-top: 10%;
+}
+#adminLogin h1{
+    font-size: 5vw;
+    color: white;
+}
+label{
+    font-size: 2vw;
+    color: white;
+}
+input{
+    width: 60%;
+    font-size: 2vw;
+    border: 2px solid #01c38d;
+    background-color: #191e29;
+    color: white;
+}
+#adminLogin button{
+    width: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 2px solid #01c38d;
+    background-color: #191e29;
+    color: white;
+    font-size: 2vw;
+}
+#adminLogin button:active{
+    transform: scale(0.90);
+    transition: 0.5s;
+}
+#Buttons{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    
+}
+#Buttons h1{
+    color: white;
+    font-size: 3vw;
+}
+#Buttons button{
+    margin-top: 20%;
+    width: 50%;
+    border-radius: 10%;
+    background-color: #191e29;
+    color: white;
+    font-size: 2vw;
+}
+#Buttons button:active{
+    transform: scale(0.40);
+    transition: 1s;
+}
+#logout{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#logout button{
+    margin-top: 20%;
+    width: 50%;
+    border-radius: 10%;
+    background-color: #191e29;
+    color: white;
+    font-size: 2vw;
+}
+#logout button:active{
+    transform: scale(0.40);
+    transition: 1s;
+}

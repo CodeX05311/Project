@@ -1,0 +1,150 @@
+body{
+    background-color: #191e29;
+}
+.navBar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 42% 13% 13% 13% 19%;
+    color: #ffffff;
+    font-size: 1.2vw;
+    
+}
+.nav{
+    text-align: center;
+}
+.nav:hover{
+    border-left: 3px solid #01c38d;
+    border-right:3px solid #01c38d;
+    transition: 1.5s;
+}
+option{
+    text-align: center;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.works{
+    width: 100%;
+    margin-top: 8.5%;
+    font-size: 2.4vw;
+    text-align: center;
+    border: none;
+    background-color: #191e29;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.navBar :first-child h1{
+    margin-left: 5%;
+}
+.navBar a{
+    text-decoration: none;
+    color: white;
+    
+}
+.introduction{
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    box-shadow: 0px 70px 60px 0px#01c38d;
+}
+.introduction img{
+    opacity: 0.8;
+    width: 100%;
+}
+.introduction h2{
+    color: white;
+    font-size: 8vw;
+    text-align: center;
+}
+.introduction #p1{
+    color: #01c38d;
+    text-align: center;
+    font-size: 2vw;
+}
+.introduction #p2{
+    color: #01c38d;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.fa-brands{
+    font-size: 3vw;
+    color: #01c38d;
+    margin-top: 10%;
+    margin-right: 4%;
+}
+.feedback{
+    width: 100%;
+    margin-top: 20%;
+    text-align: center;
+}
+.feedback h4{
+    font-size: 6vw;
+    color: white;
+}
+.feedback #p1{
+    font-size: 2vw;
+    color: #01c38d;
+}
+.feedBox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    text-align: center;
+}
+.feedBox h5{
+    font-size: 2.5vw; 
+    color: #ffffff;  
+}
+.feedBox p{
+    font-size: 1.5vw;
+    color: #01c38d;
+}
+.writeComment{
+    width: 15%;
+    background-color: #191e29;
+    font-size: 1.5vw;
+    color: #01c38d;
+    padding: 0.5%;
+    border: 1px solid #01c38d;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 9%;
+    cursor: pointer;
+    
+}
+.writeComment:hover{
+    background-color: #01c38d;
+    color: white;
+    transition: 2s;
+}
+.writeComment:active{
+    background-color: #191e29;
+    color: #01c38d;
+    transition: 0.5s;
+    transform: scale(0.50);
+}
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin-top: 20%;
+    box-shadow: 0px -70px 60px 0px #01c38d;
+    
+}
+.title{
+    width: 70%;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #ffffff;
+    border: 2px solid #01c38d;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 5%;
+}
+.footer p{
+    color: #01c38d;
+    font-size: 1.2vw;
+    text-align: center;
+}

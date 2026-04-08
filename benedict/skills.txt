@@ -1,0 +1,20 @@
+PHP
+Basic knowledge of creating dynamic websites and handling forms and basic database operations.
+Color game(Sample background).png
+0
+Java
+Beginner in programming with Java, focusing on simple applications and understanding object-oriented concepts.
+Color game(Sample background).png
+1
+JavaScript
+Familiar with adding interactivity to websites and creating basic dynamic features.
+Color game(Sample background).png
+2
+HTML
+Able to create basic webpage structures with headings, paragraphs, and links.
+Color game(Sample background).png
+3
+CSS
+Knowledge of styling webpages, including colors, fonts, and layouts.
+Color game(Sample background).png
+4

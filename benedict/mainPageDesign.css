@@ -1,0 +1,33 @@
+.contents{
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+.contents h3{
+    font-size: 6vw;
+    color: white;
+}
+.contents #p1{
+    font-size: 2vw;
+    color: #01c38d;
+}
+.contentBox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.contentBox img{
+    width: 70%;
+    height: 100%;
+    border: 5px solid #01c38d;
+    
+}
+.seemoreLink{
+    color: white;
+    text-decoration: none;
+}
+.seemoreLink:hover{
+    color: #01c38d;
+    font-size: 2.3vw;
+    transition: 2s;
+}
